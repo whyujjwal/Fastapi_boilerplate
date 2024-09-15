@@ -11,7 +11,6 @@ class UserCreate(UserBase):
 class UserResponse(UserBase):
     id: int
     role: str
-    is_active: bool
 
     class Config:
         orm_mode = True
